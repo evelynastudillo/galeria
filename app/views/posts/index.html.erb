@@ -1,0 +1,5 @@
+<h1>Galería</h1>
+<% @posts.each do |post| %>
+<h3><%= post.name %></h3>
+<%= image_tag post.photo %>
+<% end %>
